@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Student Result</title>
+  <style>
+    body {
+      background-color: lightyellow;
+      text-align: center;
+      font-family: Arial;
+    }
+    .box {
+      margin-top: 100px;
+      display: inline-block;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Check Student Result</h2>
+    <form action="ResultServlet" method="post">
+      <label>Roll Number:</label><br>
+      <input type="number" name="rollno" required><br><br>
+      <input type="submit" value="Get Result">
+    </form>
+  </div>
+</body>
+</html>
