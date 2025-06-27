@@ -28,7 +28,7 @@ CREATE TABLE students (
   marks INT
 );
 
-INSERT INTO students VALUES (1, 'Praveen', 90), (2, 'Sneha', 85);
+INSERT INTO students VALUES (101, 'Praveen', 500), (102, 'Sneha', 450);
 ---
 ## Screenshots
 
