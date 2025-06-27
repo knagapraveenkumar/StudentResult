@@ -30,4 +30,12 @@ CREATE TABLE students (
 
 INSERT INTO students VALUES (1, 'Praveen', 90), (2, 'Sneha', 85);
 ---
+## Screenshots
+
+## Result Page Example:
+![Result Page]
+![studentform](https://github.com/user-attachments/assets/c2fb753d-d8b3-40c3-bf43-6c02a56347d0)
+![Result](https://github.com/user-attachments/assets/30c0293f-4076-4c78-830c-e5e6a5f61a5c)
+
+
 
