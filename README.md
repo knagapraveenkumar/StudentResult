@@ -15,4 +15,19 @@ This is a simple Java Servlet-based web application to display student result de
 - mysql-connector-j (JDBC driver)
 ---
 ##  Clone this Project
-git clone https://github.com/knagapraveenkumar/StudentResults.git
+https://github.com/knagapraveenkumar/StudentResult.git
+---
+## Set Up MySQL Database
+CREATE DATABASE studentdb;
+
+USE studentdb;
+
+CREATE TABLE students (
+  roll_no INT PRIMARY KEY,
+  name VARCHAR(100),
+  marks INT
+);
+
+INSERT INTO students VALUES (1, 'Praveen', 90), (2, 'Sneha', 85);
+---
+
